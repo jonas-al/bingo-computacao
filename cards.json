@@ -1,0 +1,696 @@
+{
+  "titulo": "Bingo Computação",
+  "versao": "1.0",
+  "total_cards": 76,
+  "observacao": "Cada card tem uma categoria (a resposta), uma descrição (situação ou problema) e uma lista de dicas. Campo 'tipo': 'problema' quando o card original começava com 'PROBLEMA:', senão 'situacao'. Campo 'cor' reproduz a moldura do card no PDF.",
+  "cores": {
+    "azul": "#3DBBDB",
+    "amarelo": "#D2D05E",
+    "laranja": "#F58B6E",
+    "rosa": "#F7A0D8"
+  },
+  "categorias": [
+    { "id": "ihc", "nome": "IHC", "nome_completo": "Interação Humano-Computador" },
+    { "id": "redes", "nome": "Redes" },
+    { "id": "cyberbullying", "nome": "Cyberbullying" },
+    { "id": "ciberseguranca", "nome": "Cibersegurança" },
+    { "id": "banco_de_dados", "nome": "Banco de Dados" },
+    { "id": "bug_ou_erro", "nome": "Bug ou Erro" },
+    { "id": "investigacao_diagnostico", "nome": "Investigação/Diagnóstico" },
+    { "id": "algoritmo", "nome": "Algoritmo" },
+    { "id": "ia", "nome": "IA", "nome_completo": "Inteligência Artificial" },
+    { "id": "hardware", "nome": "Hardware" },
+    { "id": "software", "nome": "Software" }
+  ],
+  "cards": [
+    {
+      "id": "IHC-01", "categoria": "ihc", "cor": "azul", "tipo": "problema",
+      "descricao": "O botão de confirmação de compra foi projetado com a mesma cor do fundo e em tamanho minúsculo, tornando-o invisível para a maioria dos usuários.",
+      "dicas": [
+        "Analisa como o ser humano interage com telas e botões.",
+        "Foca em facilitar a vida de quem está usando o sistema.",
+        "Palavras-chave: acessibilidade, design, cores e clareza visual."
+      ]
+    },
+    {
+      "id": "IHC-02", "categoria": "ihc", "cor": "amarelo", "tipo": "problema",
+      "descricao": "Um aplicativo foi lançado com texto vermelho sobre fundo verde, impedindo a leitura por pessoas com daltonismo devido à falta de acessibilidade visual.",
+      "dicas": [
+        "Estuda barreiras visuais e motoras para diferentes públicos.",
+        "Envolve testes de ergonomia digital e conforto visual.",
+        "Foco na experiência de quem usa a interface."
+      ]
+    },
+    {
+      "id": "IHC-03", "categoria": "ihc", "cor": "laranja", "tipo": "situacao",
+      "descricao": "O menu principal de um site apresenta subcategorias que melhoram a navegação.",
+      "dicas": [
+        "Avalia a ponte entre pessoa e máquina.",
+        "Mede o esforço do usuário para realizar uma tarefa.",
+        "Procura tornar softwares simples e intuitivos."
+      ]
+    },
+    {
+      "id": "IHC-04", "categoria": "ihc", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Exigência de quatro cliques consecutivos em menus ocultos apenas para alterar o volume do som em um player de áudio.",
+      "dicas": [
+        "Estuda a satisfação e eficiência do usuário.",
+        "Avalia se a interface é amigável ou frustrante.",
+        "Conecta o design visual com a engenharia de software."
+      ]
+    },
+    {
+      "id": "IHC-05", "categoria": "ihc", "cor": "azul", "tipo": "situacao",
+      "descricao": "Destaque de um botão de ação com cor vibrante para guiar o olhar do usuário e facilitar a conclusão de uma tarefa.",
+      "dicas": [
+        "Analisa o comportamento humano diante de elementos gráficos.",
+        "Busca otimizar a navegação.",
+        "Relacionado à usabilidade e experiência do usuário."
+      ]
+    },
+
+    {
+      "id": "REDES-01", "categoria": "redes", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Divisão de uma imagem em milhares de pequenos fragmentos digitais para trafegar pelos cabos de fibra ótica.",
+      "dicas": [
+        "Envolve roteadores, cabos, Wi-Fi e conexões globais.",
+        "Estuda como computadores conversam à distância.",
+        "Infraestrutura que sustenta a internet."
+      ]
+    },
+    {
+      "id": "REDES-02", "categoria": "redes", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Distribuição do sinal de internet sem fio através de um roteador.",
+      "dicas": [
+        "Cuida de endereços IP e protocolos de transmissão.",
+        "Conecta dispositivos locais e remotos.",
+        "Sem ela, os computadores ficariam isolados entre si."
+      ]
+    },
+    {
+      "id": "REDES-03", "categoria": "redes", "cor": "rosa", "tipo": "problema",
+      "descricao": "Rompimento de um cabo submarino de fibra ótica que interrompe o tráfego de dados transoceânico.",
+      "dicas": [
+        "Trata de transmissão de dados em larga escala.",
+        "Utiliza protocolos como TCP/IP.",
+        "Estuda a topologia de conexões entre máquinas."
+      ]
+    },
+    {
+      "id": "REDES-04", "categoria": "redes", "cor": "azul", "tipo": "situacao",
+      "descricao": "Mapeamento e tradução de nomes de domínios em endereços numéricos IP através de servidores.",
+      "dicas": [
+        "Envolve roteamento de pacotes e servidores centrais.",
+        "Conecta redes locais a redes mundiais.",
+        "Base da comunicação digital moderna."
+      ]
+    },
+    {
+      "id": "REDES-05", "categoria": "redes", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Troca de informações sem fio e de curto alcance entre dispositivos de uma residência.",
+      "dicas": [
+        "Envolve roteadores, cabos, Wi-Fi e conexões globais.",
+        "Estuda como dispositivos conversam à distância.",
+        "Infraestrutura que sustenta a internet."
+      ]
+    },
+    {
+      "id": "REDES-06", "categoria": "redes", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Atribuição de um número de identificação exclusivo a cada dispositivo conectado a uma rede para permitir localização.",
+      "dicas": [
+        "Área que estuda a comunicação entre servidores e clientes.",
+        "Envolve cabos, Wi-Fi, switches e roteadores.",
+        "Permite o compartilhamento de recursos à distância."
+      ]
+    },
+    {
+      "id": "REDES-07", "categoria": "redes", "cor": "rosa", "tipo": "problema",
+      "descricao": "Conexão sem fio está lenta pois há excesso de conexões simultâneas disputando a mesma largura de banda.",
+      "dicas": [
+        "Mede largura de banda e transmissão de pacotes.",
+        "Estuda a estabilidade de conexões e portas de comunicação.",
+        "Infraestrutura que interliga hardwares distribuídos."
+      ]
+    },
+    {
+      "id": "REDES-08", "categoria": "redes", "cor": "azul", "tipo": "situacao",
+      "descricao": "Interconexão criptografada entre computadores distantes através de uma rede privada virtual.",
+      "dicas": [
+        "Trata de pacotes de dados cruzando fronteiras digitais.",
+        "Envolve protocolos de comunicação e roteamento.",
+        "Domínio técnico que estuda a interconexão de sistemas."
+      ]
+    },
+
+    {
+      "id": "CYBERBULLYING-01", "categoria": "cyberbullying", "cor": "amarelo", "tipo": "problema",
+      "descricao": "Criação de perfil falso em rede social com a intenção de humilhar e intimidar um colega no ambiente digital.",
+      "dicas": [
+        "Envolve agressão psicológica praticada por meios eletrônicos.",
+        "Caracteriza-se pela repetição e intencionalidade de causar dano online.",
+        "É punido por leis de proteção e convivência escolar."
+      ]
+    },
+    {
+      "id": "CYBERBULLYING-02", "categoria": "cyberbullying", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Compartilhamento não autorizado de imagens vexatórias de um colega em grupos de mensagens.",
+      "dicas": [
+        "Envolve agressão psicológica praticada por meios eletrônicos.",
+        "Caracteriza-se pela repetição e intencionalidade de causar dano online.",
+        "É punido por leis de proteção e convivência escolar."
+      ]
+    },
+    {
+      "id": "CYBERBULLYING-03", "categoria": "cyberbullying", "cor": "azul", "tipo": "situacao",
+      "descricao": "Envio anônimo de comentários ofensivos e ameaças direcionadas a uma pessoa em redes sociais.",
+      "dicas": [
+        "Agressão virtual intencional contra pessoas no ambiente digital.",
+        "Exige conscientização sobre cidadania e ética.",
+        "Trata-se de comportamento abusivo online."
+      ]
+    },
+
+    {
+      "id": "CIBERSEGURANCA-01", "categoria": "ciberseguranca", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Envio de mensagem fraudulenta que imita uma instituição oficial para enganar a vítima e capturar as credenciais de acesso.",
+      "dicas": [
+        "Protege sistemas, dados e identidades contra ataques.",
+        "Envolve criptografia e senhas seguras.",
+        "Defende a privacidade e a conformidade com a legislação de dados."
+      ]
+    },
+    {
+      "id": "CIBERSEGURANCA-02", "categoria": "ciberseguranca", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Utilização de senhas fracas que podem ser descobertas por ferramentas automatizadas.",
+      "dicas": [
+        "Foca na defesa de redes contra invasões.",
+        "Envolve conceitos como autenticação de dois fatores.",
+        "Combate vírus e roubo de dados."
+      ]
+    },
+    {
+      "id": "CIBERSEGURANCA-03", "categoria": "ciberseguranca", "cor": "azul", "tipo": "situacao",
+      "descricao": "Codificação de mensagens de aplicativos de comunicação que garantem apenas aos interlocutores autorizados a decifragem do conteúdo.",
+      "dicas": [
+        "Protege a confidencialidade e a integridade da informação.",
+        "Trata de vulnerabilidades e blindagem de dados.",
+        "Essencial para a privacidade no ambiente digital."
+      ]
+    },
+    {
+      "id": "CIBERSEGURANCA-04", "categoria": "ciberseguranca", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Uma empresa teve os dados corporativos sequestrados e criptografados por hackers.",
+      "dicas": [
+        "Protege sistemas, dados e identidades contra ataques.",
+        "Envolve cópias de segurança avançadas.",
+        "Protege contra a extorsão virtual."
+      ]
+    },
+    {
+      "id": "CIBERSEGURANCA-05", "categoria": "ciberseguranca", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Venda de dados e hábitos de navegação dos usuários a empresas terceiras sem o devido consentimento.",
+      "dicas": [
+        "Garante o sigilo das informações do usuário.",
+        "Estabelece regras rígidas para armazenamento e uso de dados.",
+        "Área focada na defesa contra vazamentos."
+      ]
+    },
+
+    {
+      "id": "BD-01", "categoria": "banco_de_dados", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Organização de cadastros de pessoas em tabelas relacionais compostas por linhas e colunas estruturadas para consultas.",
+      "dicas": [
+        "Estrutura digital projetada para armazenar volumes massivos de informação.",
+        "Utiliza linguagens de consulta como SQL.",
+        "Garante que os dados fiquem organizados e acessíveis."
+      ]
+    },
+    {
+      "id": "BD-02", "categoria": "banco_de_dados", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Cruzamento entre o histórico médico do paciente e o estoque de medicamentos através de um sistema gerenciador central.",
+      "dicas": [
+        "Evita que informações fiquem espalhadas em arquivos soltos.",
+        "Organiza registros em tabelas relacionadas por chaves primárias.",
+        "Gerencia transações simultâneas de usuários."
+      ]
+    },
+    {
+      "id": "BD-03", "categoria": "banco_de_dados", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Execução de instruções estruturadas em linguagem SQL para filtrar e extrair registros de um repositório.",
+      "dicas": [
+        "Repositório estruturado de dados corporativos ou governamentais.",
+        "Trabalha com índices para agilizar registros.",
+        "Componente essencial de qualquer software com cadastro."
+      ]
+    },
+    {
+      "id": "BD-04", "categoria": "banco_de_dados", "cor": "azul", "tipo": "situacao",
+      "descricao": "Repositório que preserva as informações cadastradas mesmo após o desligamento do servidor.",
+      "dicas": [
+        "SGBD.",
+        "Organiza dados de forma relacional ou não-relacional."
+      ]
+    },
+    {
+      "id": "BD-05", "categoria": "banco_de_dados", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Atualiza e baixa automaticamente a quantidade de itens de estoque no sistema a cada transação efetuada pelo cliente.",
+      "dicas": [
+        "Mantém tabelas sincronizadas e evita duplicação de cadastros.",
+        "Permite buscas complexas e filtragem instantânea de registros.",
+        "Infraestrutura lógica de armazenamento."
+      ]
+    },
+    {
+      "id": "BD-06", "categoria": "banco_de_dados", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Permite o processamento de transferências financeiras garantindo que o valor seja retirado de uma conta e creditado em outra de forma segura.",
+      "dicas": [
+        "Repositório de informações transacionais.",
+        "Utiliza consultas lógicas para gerenciar tabelas.",
+        "Assegura que dados não sejam corrompidos."
+      ]
+    },
+    {
+      "id": "BD-07", "categoria": "banco_de_dados", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Armazenamento contínuo dos dados de navegação e preferências do usuário para consulta e análise de padrões de consumo.",
+      "dicas": [
+        "Estrutura organizada para recuperação de registros.",
+        "Trabalha em conjunto com servidores.",
+        "Fundamento tecnológico para consultas de grande volume."
+      ]
+    },
+    {
+      "id": "BD-08", "categoria": "banco_de_dados", "cor": "azul", "tipo": "situacao",
+      "descricao": "Pode-se fazer uma verificação na tabela de usuários para confirmar um nome de login durante o cadastro.",
+      "dicas": [
+        "Armazena dados de forma estruturada para acesso.",
+        "Usado em aplicativos, sites e sistemas."
+      ]
+    },
+
+    {
+      "id": "BUG-01", "categoria": "bug_ou_erro", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Mudança de rota de um robô causada pela troca acidental de um operador de adição por um de subtração.",
+      "dicas": [
+        "Comportamento inesperado ou incorreto de um programa.",
+        "Exige ser encontrado e consertado.",
+        "Nome inspirado em um inseto real encontrado em computadores antigos."
+      ]
+    },
+    {
+      "id": "BUG-02", "categoria": "bug_ou_erro", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Encerramento repentino de um aplicativo quando o usuário tenta carregar um arquivo externo incompatível.",
+      "dicas": [
+        "Erro durante a programação.",
+        "Requer testes minuciosos para retificar a linha de código.",
+        "Exige correção."
+      ]
+    },
+    {
+      "id": "BUG-03", "categoria": "bug_ou_erro", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Erro de cálculo no valor total de uma compra.",
+      "dicas": [
+        "Ações incorretas.",
+        "Encontra-se investigando passo a passo a execução do código."
+      ]
+    },
+    {
+      "id": "BUG-04", "categoria": "bug_ou_erro", "cor": "azul", "tipo": "situacao",
+      "descricao": "Recusa da compilação do programa motivada por erro na linguagem de programação utilizada.",
+      "dicas": [
+        "Falha de regra na escrita do código-fonte.",
+        "Detectado pelo editor de código."
+      ]
+    },
+    {
+      "id": "BUG-05", "categoria": "bug_ou_erro", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Queda do sistema ao receber acessos simultâneos.",
+      "dicas": [
+        "Falha.",
+        "Defeito sob condições extremas de uso.",
+        "Exige reestruturação do código."
+      ]
+    },
+    {
+      "id": "BUG-06", "categoria": "bug_ou_erro", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Erro de texto em um campo exclusivo para números.",
+      "dicas": [
+        "Brecha ou falha operacional.",
+        "Exige correção."
+      ]
+    },
+    {
+      "id": "BUG-07", "categoria": "bug_ou_erro", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Movimento errado do cursor na tela em relação ao comando do usuário.",
+      "dicas": [
+        "Ações incorretas.",
+        "Falhas de sistema."
+      ]
+    },
+    {
+      "id": "BUG-08", "categoria": "bug_ou_erro", "cor": "azul", "tipo": "situacao",
+      "descricao": "Falha na conversão de unidades de medida no código que causou erro de cálculo de um sistema.",
+      "dicas": [
+        "Falha do sistema.",
+        "Erro de programação."
+      ]
+    },
+
+    {
+      "id": "INVEST-01", "categoria": "investigacao_diagnostico", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Mapeamento inicial das necessidades do usuário por meio de entrevistas antes da definição das funcionalidades do software.",
+      "dicas": [
+        "Etapa inicial para entender o problema real.",
+        "Levanta as necessidades do público.",
+        "Define um projeto."
+      ]
+    },
+    {
+      "id": "INVEST-02", "categoria": "investigacao_diagnostico", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Delimitação clara do problema central a ser resolvido para evitar recursos desnecessários.",
+      "dicas": [
+        "Delimitar o problema a ser resolvido.",
+        "Evita investimentos desnecessários.",
+        "Planejamento de software."
+      ]
+    },
+    {
+      "id": "INVEST-03", "categoria": "investigacao_diagnostico", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Coleta de dados reais do projeto.",
+      "dicas": [
+        "Etapa inicial para entender o problema real.",
+        "Levanta as necessidades do público.",
+        "Define um projeto."
+      ]
+    },
+    {
+      "id": "INVEST-04", "categoria": "investigacao_diagnostico", "cor": "azul", "tipo": "situacao",
+      "descricao": "Avaliação de prazos, infraestrutura e capacidades da equipe antes do início do desenvolvimento.",
+      "dicas": [
+        "Avalia recursos e restrições.",
+        "Orienta o direcionamento da equipe.",
+        "Etapa essencial em qualquer projeto."
+      ]
+    },
+    {
+      "id": "INVEST-05", "categoria": "investigacao_diagnostico", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Definição do desafio que guia a equipe usando tecnologia.",
+      "dicas": [
+        "Ponto de partida para projetos.",
+        "Estimula o pensamento crítico."
+      ]
+    },
+    {
+      "id": "INVEST-06", "categoria": "investigacao_diagnostico", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Hipóteses investigativas para isolar o código onde ocorreu a interrupção dos dados.",
+      "dicas": [
+        "Direciona o raciocínio lógico para a raiz do problema.",
+        "Facilita a análise de falhas."
+      ]
+    },
+    {
+      "id": "INVEST-07", "categoria": "investigacao_diagnostico", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Análise sobre o nível de clareza das mensagens considerando o público-alvo.",
+      "dicas": [
+        "Direciona o foco para as necessidades do usuário final.",
+        "Define um projeto."
+      ]
+    },
+    {
+      "id": "INVEST-08", "categoria": "investigacao_diagnostico", "cor": "azul", "tipo": "situacao",
+      "descricao": "Análise para selecionar a linguagem de programação mais adequada aos requisitos de um projeto de software.",
+      "dicas": [
+        "Avalia alternativas antes da implementação prática.",
+        "Evita retrabalho e escolha de ferramentas inadequadas."
+      ]
+    },
+
+    {
+      "id": "ALGO-01", "categoria": "algoritmo", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Sequência finita e ordenada de instruções necessárias para a realização de uma tarefa.",
+      "dicas": [
+        "Base de qualquer linguagem de programação.",
+        "Regras bem definidas para resolver um problema.",
+        "Cada passo deve ser executado com precisão."
+      ]
+    },
+    {
+      "id": "ALGO-02", "categoria": "algoritmo", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Encadeamento de comandos para orientar os movimentos e ações de um personagem na tela.",
+      "dicas": [
+        "Sequência lógica.",
+        "Pilar fundamental do pensamento computacional.",
+        "Pode ser representado por blocos."
+      ]
+    },
+    {
+      "id": "ALGO-03", "categoria": "algoritmo", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Conjunto de regras lógicas que orientam as decisões de desvio de obstáculos em robôs.",
+      "dicas": [
+        "Sequência de decisões e ações.",
+        "Processa entradas e saídas.",
+        "Essencial em robótica e inteligência artificial."
+      ]
+    },
+    {
+      "id": "ALGO-04", "categoria": "algoritmo", "cor": "azul", "tipo": "situacao",
+      "descricao": "Sequência de etapas de comparação e troca para organizar uma lista de dados em ordem alfabética.",
+      "dicas": [
+        "Algoritmo de ordenação.",
+        "Otimiza o tempo de busca em bancos de dados.",
+        "Conceito central na computação teórica."
+      ]
+    },
+    {
+      "id": "ALGO-05", "categoria": "algoritmo", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Estrutura lógica de tomada de decisão que altera o programa conforme uma condição seja verdadeira ou falsa.",
+      "dicas": [
+        "Altera o fluxo de execução de um programa.",
+        "Permite que softwares tomem decisões baseadas em variáveis.",
+        "Fundamental para a construção em qualquer linguagem de programação."
+      ]
+    },
+    {
+      "id": "ALGO-06", "categoria": "algoritmo", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Estrutura de repetição que executa uma sequência de passos enquanto uma condição for verdadeira.",
+      "dicas": [
+        "Estrutura de repetição.",
+        "Estrutura lógica essencial para processamento em massa."
+      ]
+    },
+    {
+      "id": "ALGO-07", "categoria": "algoritmo", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Processamento matemático de variáveis de tráfego para calcular a rota de menor tempo em sistemas de navegação.",
+      "dicas": [
+        "Sequência de decisões e ações.",
+        "Processa dados geográficos em tempo real.",
+        "Converte dados brutos em instruções práticas de navegação."
+      ]
+    },
+    {
+      "id": "ALGO-08", "categoria": "algoritmo", "cor": "azul", "tipo": "situacao",
+      "descricao": "Representação visual e sequencial de instruções no papel utilizada para orientar a execução de tarefas sem o uso de telas.",
+      "dicas": [
+        "Ação que é comumente feita desplugada.",
+        "Base lógica para automação de processos físicos e digitais.",
+        "Conceito central na computação teórica."
+      ]
+    },
+
+    {
+      "id": "IA-01", "categoria": "ia", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Identificação automática de padrões complexos em exames por meio do tratamento de algoritmos com milhares de dados.",
+      "dicas": [
+        "Simula a capacidade humana de raciocinar e reconhecer padrões.",
+        "Redes neurais.",
+        "Utilizada em assistentes virtuais e sistemas autônomos."
+      ]
+    },
+    {
+      "id": "IA-02", "categoria": "ia", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Compreensão e geração de texto em linguagem natural por sistemas capazes de conversar com usuários humanos.",
+      "dicas": [
+        "Processa e gera textos ou falas com base em estatísticas.",
+        "Aprende com interações para melhorar suas respostas.",
+        "Área da computação voltada para a automação cognitiva."
+      ]
+    },
+    {
+      "id": "IA-03", "categoria": "ia", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Previsão e sugestão automatizada de novos conteúdos com base no histórico de escolhas anteriores.",
+      "dicas": [
+        "Analisa padrões de comportamento.",
+        "Utiliza algoritmos preditivos.",
+        "Machine Learning."
+      ]
+    },
+    {
+      "id": "IA-04", "categoria": "ia", "cor": "azul", "tipo": "situacao",
+      "descricao": "Extração e interpretação de características faciais em imagens ou vídeos de pessoas.",
+      "dicas": [
+        "Visão computacional.",
+        "Aplicada em segurança, medicina e automação industrial."
+      ]
+    },
+    {
+      "id": "IA-05", "categoria": "ia", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Criação automática de imagens ou textos a partir do processamento de comandos digitados pelo usuário.",
+      "dicas": [
+        "Cria conteúdos, treinada com bilhões de exemplos.",
+        "Revolucionou a criação artística e o suporte à produtividade digital.",
+        "Baseada em modelos complexos de aprendizado."
+      ]
+    },
+    {
+      "id": "IA-06", "categoria": "ia", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Tomada de decisão em tempo real para frenagem de emergência em veículos autônomos a partir de dados captados por sensores.",
+      "dicas": [
+        "Simula cognição humana.",
+        "Redes neurais artificiais.",
+        "Algoritmos preditivos."
+      ]
+    },
+    {
+      "id": "IA-07", "categoria": "ia", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Conversão entre diferentes idiomas identificando contexto semântico e padrões fonéticos por modelos computacionais.",
+      "dicas": [
+        "Processa dados complexos com redes neurais."
+      ]
+    },
+
+    {
+      "id": "HW-01", "categoria": "hardware", "cor": "azul", "tipo": "situacao",
+      "descricao": "\"Cérebro\" do computador, responsável por executar bilhões de cálculos lógicos por segundo, esquenta bastante e precisa de um cooler em cima. Que peça é essa?",
+      "dicas": [
+        "Parte física e tangível que compõe um sistema de computação.",
+        "Trabalha em conjunto com memória RAM e placa-mãe.",
+        "Sem ele, nenhum software ou sistema operacional consegue rodar."
+      ]
+    },
+    {
+      "id": "HW-02", "categoria": "hardware", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "A memória volátil de alta velocidade que armazena temporariamente os programas abertos no momento.",
+      "dicas": [
+        "Peça física conectada diretamente à placa-mãe.",
+        "Garante agilidade para o processador.",
+        "Diferente do HD ou SSD, ela não guarda arquivos permanentemente."
+      ]
+    },
+    {
+      "id": "HW-03", "categoria": "hardware", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Placa principal de circuito impresso onde todos os outros componentes de hardware (processador, memória, placas de vídeo) são conectados.",
+      "dicas": [
+        "Componente físico central que distribui energia.",
+        "Contém barramentos e chipsets.",
+        "Base estrutural de desktops, notebooks e servidores."
+      ]
+    },
+    {
+      "id": "HW-04", "categoria": "hardware", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Dispositivo físico de armazenamento permanente de dados baseado em chips de memória flash que não perde arquivos ao desligar o computador.",
+      "dicas": [
+        "Componente físico mais rápido e silencioso que discos rígidos.",
+        "Onde o sistema operacional e seus arquivos ficam salvos a longo prazo."
+      ]
+    },
+    {
+      "id": "HW-05", "categoria": "hardware", "cor": "azul", "tipo": "situacao",
+      "descricao": "Componente físico que converte a energia elétrica da tomada em correntes de baixa tensão para alimentar a placa-mãe e demais peças do computador.",
+      "dicas": [
+        "Peça metálica pesada com ventoinha interna instalada no gabinete.",
+        "Protege o computador contra picos de energia e curtos-circuitos.",
+        "Elemento importante de infraestrutura física."
+      ]
+    },
+    {
+      "id": "HW-06", "categoria": "hardware", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Dispositivo de entrada de dados composto por uma matriz de interruptores mecânicos ou membrana que permite digitar textos para o computador.",
+      "dicas": [
+        "Periférico físico externo conectado via USB ou Bluetooth.",
+        "Permite interação direta com a interface do sistema.",
+        "Componente clássico de qualquer computador."
+      ]
+    },
+    {
+      "id": "HW-07", "categoria": "hardware", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Periférico de saída de dados encarregado de traduzir os sinais gráficos emitidos pelo computador em exibição visual de imagens.",
+      "dicas": [
+        "Periférico físico para a visualização da interface gráfica.",
+        "Conecta-se às saídas de vídeo do computador.",
+        "Traduz dados digitais em imagens."
+      ]
+    },
+
+    {
+      "id": "SW-01", "categoria": "software", "cor": "rosa", "tipo": "situacao",
+      "descricao": "O computador da biblioteca está lento. O técnico não troca nenhuma peça: só remove programas desnecessários, e ele volta a funcionar bem.",
+      "dicas": [
+        "O técnico não abriu o computador.",
+        "Ele apagou coisas que estavam instaladas.",
+        "Se o hardware é o corpo, isso é a parte que diz o que fazer."
+      ]
+    },
+    {
+      "id": "SW-02", "categoria": "software", "cor": "azul", "tipo": "situacao",
+      "descricao": "Um computador e um celular têm peças diferentes, mas os dois precisam de um Windows, Android ou Linux para funcionar.",
+      "dicas": [
+        "É a primeira coisa que carrega quando o aparelho liga.",
+        "Esse tipo especial se chama sistema operacional.",
+        "Ele controla todos os outros programas."
+      ]
+    },
+    {
+      "id": "SW-03", "categoria": "software", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "A impressora está ligada no cabo, mas o computador não a reconhece. A solução é instalar o driver.",
+      "dicas": [
+        "O cabo e a impressora estão funcionando.",
+        "O driver ensina o computador a usar a peça.",
+        "O driver é um programa, não uma peça."
+      ]
+    },
+    {
+      "id": "SW-04", "categoria": "software", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Um grupo de voluntários pelo mundo melhora juntos o mesmo programa, e qualquer pessoa pode ver e modificar o código.",
+      "dicas": [
+        "Eles trabalham juntos pela internet, sem se conhecer pessoalmente.",
+        "Quando o código é aberto a todos, chamamos de livre.",
+        "O Linux e o navegador Firefox foram feitos assim."
+      ]
+    },
+    {
+      "id": "SW-06", "categoria": "software", "cor": "azul", "tipo": "situacao",
+      "descricao": "A escola precisa pagar uma licença por ano para usar o Word e o Excel em todos os computadores.",
+      "dicas": [
+        "A escola não está pagando por nenhum equipamento.",
+        "Pode ser gratuito, pago ou livre.",
+        "Word e Excel são programas de computador."
+      ]
+    },
+    {
+      "id": "SW-07", "categoria": "software", "cor": "amarelo", "tipo": "situacao",
+      "descricao": "Lucas instalou um jogo no computador, mas desistiu e o desinstalou. O computador continuou com as mesmas peças.",
+      "dicas": [
+        "Nada saiu de dentro do gabinete.",
+        "Pode ser instalado, apagado e copiado.",
+        "Jogos de computador são um tipo disso."
+      ]
+    },
+    {
+      "id": "SW-08", "categoria": "software", "cor": "laranja", "tipo": "situacao",
+      "descricao": "Uma empresa contrata programadores para criar um sistema de controle de estoque.",
+      "dicas": [
+        "O resultado do trabalho deles vai rodar em um computador.",
+        "Eles vão escrever código em uma linguagem de programação.",
+        "O que eles criam é chamado de programa."
+      ]
+    },
+    {
+      "id": "SW-09", "categoria": "software", "cor": "rosa", "tipo": "situacao",
+      "descricao": "Júlia quer conversar com a avó por vídeo. Ela baixa um aplicativo na loja do celular.",
+      "dicas": [
+        "Ela usou a Play Store ou a App Store.",
+        "Ocupa espaço na memória, mas não pesa nada.",
+        "WhatsApp, Instagram e TikTok também são exemplos disso."
+      ]
+    }
+  ]
+}
